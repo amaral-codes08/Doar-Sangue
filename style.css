@@ -17,8 +17,8 @@ input, select, button {
 }
 
 button {
-    background-color: rgb(233, 35, 35);
-    color: rgb(190, 43, 43);
+    background-color: rgb(170, 32, 32);
+    color: white;
     border: none;
     cursor: pointer;
 }
@@ -30,7 +30,7 @@ button {
  }
 
  .card{
-    background: rgb(219, 136, 12);
+    background: rgb(228, 5, 5);
     margin: 15px auto;
     padding: 15px;
     width: 320px;
