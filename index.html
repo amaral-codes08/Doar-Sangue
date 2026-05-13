@@ -6,5 +6,39 @@
 </head>
 <body>
     
+    <h1>Se Cadastrar como Doador de Sangue</h1>
+
+    <form id="formDoacao">
+        <input type="text" id="nome" placeholder="Nome Completo">
+        <input type="email" id="email" placeholder="Email">
+        <input type="number" id="idade" placeholder="Idade">
+        <input type="number" id="peso" placeholder="Peso (kg)">
+
+        <select id="tipoSanguineo">
+            <option value="">Selecione o tipo sanguíneo</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+
+        <input type="text" id="telefone" placeholder="Telefone">
+        <input type="text" id="cidade" placeholder="Cidade">
+        <input type="text" id="estado" placeholder="Estado">
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <p id="mensagem"></p>
+
+    <div id="listaDoadores"></div>
+
+    <script src="script.js"></script>
+    </form>
+    
 </body>
 </html>
