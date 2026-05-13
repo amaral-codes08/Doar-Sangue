@@ -31,8 +31,8 @@ form.addEventListener("submit", function(e) {
         return;
     }
 
-    if (idade < 16) {
-        mensagem.textContent = "Idade mínima é 16 anos!";
+    if (idade < 18) {
+        mensagem.textContent = "Idade mínima é 18 anos!";
         return;
     }
 
